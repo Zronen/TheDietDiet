@@ -76,7 +76,7 @@ onSubmit(e) {
     
   }
 
-  this.props.register(newUser);
+  //this.props.register(newUser);
   
   this.state.msg = "Successfully Registered!"
   console.log("Signed Up")

@@ -47,7 +47,9 @@ handleSubmit(e){
               </div>
 
             <div className="FormField">
+              <Link to="/home"> 
               <button className="FormField__Button mr-30" >Log In</button>
+              </Link>
               <Link exact to="/home" className="FormField__Link">Register an account</Link>
               </div>
               </form>

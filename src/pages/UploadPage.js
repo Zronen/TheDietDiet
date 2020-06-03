@@ -114,8 +114,8 @@ render(){
 
         <div className="UploadPage__Form">
                 <div className="DropDown">
-                    <button onClick ={this.showMenu}>
-                        <img src={Nut} alt=" " height = '100px' width = '100px'/>
+                    <button className="DDButton" onClick ={this.showMenu}>
+                        <img class="DDButtonImg" src={Nut} alt=" " height = '100px' width = '100px'/>
                         </button>
 
                     {
@@ -136,14 +136,18 @@ render(){
                             </button> 
                             </Link>
 
-                            <button> <img src={Nut} alt=" "/></button>
+                            <Link exact to="/upload" className="FormField__Link"  >
+                            <button > 
+                                <img src={Nut} alt=" " />
+                                Upload
+                            </button> 
+                            </Link>
                         </div>
                     ):(
                     null
                     )
                     }
                 </div>
-                <h1>This is the upload page</h1>
                 </div>
             </div>
 

@@ -5,7 +5,7 @@ import Popup from 'reactjs-popup'
 import Amplify from 'aws-amplify';
 import DietDietLogo from '../src/DietDietLogo.jpg'
 import Nut from '../src/duncandoughnuts2.png'
-import ImageUploader from 'react-images-upload';
+//import ImageUploader from 'react-images-upload';
 
 
 import { BrowserRouter as Router, Route, Link, NavLink } from  'react-router-dom'

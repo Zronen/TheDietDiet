@@ -1,37 +1,53 @@
 .CafesComp p{
-    font-size:2vh;
+    font-size:2.5vh;
 }
 
 .CafesComp{
-    background-color:grey;
+    background-color:none;
     height:20vw;
 }
 
 #cafesInfo{
+    margin-top:2vh;
     color:white;
     text-align:left;
-    width:25vw;
+    width:40vw;
+    margin-left:1vw;
+}
+
+#cafesInfo2{
+  width:20vw;
+  text-align:left;
+  color:white;
 }
 
 #cafesTable{
     height:20vw;
+    width:100%;
+    position:static;
+    border:none;
+    margin:auto;
+    float:left;
+    border: none;
+    overflow:auto;
+}
+
+#cafesTable td{
+  border: none;
 }
 
 #cafesTable:first-child{
     width:20vw;
     height:20vw;
-}
-
-
-#cafesCircle{
-    width:20vw;
-    height:20vw;
     text-align:center;
-    position:relative;
-    border: 1px dotted red;
-    display: inline-block;
-
 }
+
+#cafesTable h2{
+  margin-top:-1.5vh;
+}
+
+
+
 
 
 /*https://stackoverflow.com/questions/14184494/segments-in-a-circle-using-css3/14185845*/
@@ -40,13 +56,14 @@
     border: 1vw solid black;
 
     padding:0;
-    width: 15vw;
-    height: 15vw;
+    width: 20vw;
+    height: 20vw;
     border-radius: 50%;
     list-style: none;
     overflow: hidden;
-    margin: auto;
-
+    margin: 0 auto;
+    float:left;
+    margin-left:1vw;
   }
   
   .slice {

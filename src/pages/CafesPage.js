@@ -56,7 +56,7 @@ class CafesPage extends Component{
         //altering aside size
         let formName = 'CafesPage__Form';
         let mainName = 'CafesPage__Aside'
-        if(this.state.DisplayAside == false){
+        if(this.state.DisplayAside === false){
             mainName='CafesPage__Aside__Max';
         }
 
@@ -75,7 +75,7 @@ class CafesPage extends Component{
                 {/*^Menu hide and dispaly for the whole aside*/}  
 
                 <div id="CafesProgress">
-                    <ProgCircle c={1} a={2} f={1} e={2} s={1} />
+                    <ProgCircle c={1} a={0} f={0} e={1} s={2} />
                 </div>
             </div>
 
@@ -122,11 +122,19 @@ class CafesPage extends Component{
 
                                 </button> 
                                 </Link>
+                                
+                                <Link exact to="/" className="FormField__Link"  >
+
+                                <button > 
+                                    <h3 className="ButtonIcon">Settings</h3>
+
+                                </button> 
+                                </Link>
+
                             </div>
                         ):(null)}
                     </div>
                     <h2>CAFES</h2>
-                    <h4><a class="privacyLink">Privacy settings</a></h4>
                     </div>
                 ):(null)}
 
